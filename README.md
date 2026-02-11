@@ -1,1 +1,1 @@
-# threat-hunting-cr
+# Various threat hunting scenarios
