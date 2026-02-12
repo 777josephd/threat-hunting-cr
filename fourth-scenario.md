@@ -42,28 +42,29 @@ Ransomware is still active.
 
 ## Appendix A - Hunting Queries
 
-A1 - Detection of Encrypted Files.
-
-<img width="1504" height="817" alt="KQL1" src="https://github.com/user-attachments/assets/4e24dd98-98c7-4e24-9e1a-940ba780cda1" />
+### A1 - Detection of Encrypted Files.
 Used to identify hosts with encrypted file extensions.
 
-A2 - Host Enumeration
+<img width="1504" height="817" alt="KQL1" src="https://github.com/user-attachments/assets/4e24dd98-98c7-4e24-9e1a-940ba780cda1" />
 
-<img width="1504" height="817" alt="KQL2" src="https://github.com/user-attachments/assets/b0eb56a2-309f-459c-95f4-fbedc93fa57a" />
+### A2 - Host Enumeration
 Determined number of affected endpoints.
 
-A3 - Identification of Malicious Script
+<img width="1504" height="817" alt="KQL2" src="https://github.com/user-attachments/assets/b0eb56a2-309f-459c-95f4-fbedc93fa57a" />
 
-<img width="1542" height="835" alt="KQL4" src="https://github.com/user-attachments/assets/7db65836-0e91-49d2-9e46-7fbfe94daad9" />
-A3.1
-
-<img width="1505" height="447" alt="MalScr" src="https://github.com/user-attachments/assets/d907438c-f532-4e78-97d7-a04169eab831" />
+### A3 - Identification of Malicious Script
 Confirmed the existence of the malicious ransomware script.
 
-A4 - Confirm Multi-system Infection
+<img width="1542" height="835" alt="KQL4" src="https://github.com/user-attachments/assets/7db65836-0e91-49d2-9e46-7fbfe94daad9" />
+
+### A3.1
+
+<img width="1505" height="447" alt="MalScr" src="https://github.com/user-attachments/assets/d907438c-f532-4e78-97d7-a04169eab831" />
+
+### A4 - Confirm Multi-system Infection
+Shows each host directly infected with the malicious ransomware script.
 
 <img width="1542" height="835" alt="KQL5" src="https://github.com/user-attachments/assets/86132275-0653-494c-b558-feb1ea071950" />
-Shows each host directly infected with the malicious ransomware script.
 
 ## Appendix B - MITRE ATT&CK Mapping
 
